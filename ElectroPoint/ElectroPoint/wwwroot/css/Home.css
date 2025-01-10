@@ -1,0 +1,25 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+/* Layout principal */
+.layout {
+    position: relative;
+
+    height: 100%;
+}
+
+/* Conteúdo principal */
+.home-content {
+    margin-left: 250px;
+    padding: 2rem;
+    background-color: white;
+    flex-grow: 1;
+}

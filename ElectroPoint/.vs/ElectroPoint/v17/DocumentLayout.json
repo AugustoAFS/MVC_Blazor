@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\electropoint\\electropoint\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\electropoint\\electropoint\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\electropoint\\electropoint\\wwwroot\\css\\navmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\wwwroot\\css\\navmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\electropoint\\electropoint\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 343,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.css",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\NavMenu.css",
+              "RelativeDocumentMoniker": "ElectroPoint\\wwwroot\\css\\NavMenu.css",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\NavMenu.css",
+              "RelativeToolTip": "ElectroPoint\\wwwroot\\css\\NavMenu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T14:40:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ElectroPoint\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ElectroPoint\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T14:39:09.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ElectroPoint\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ElectroPoint\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T14:34:36.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "ElectroPoint\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "ElectroPoint\\wwwroot\\css\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T13:36:50.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
