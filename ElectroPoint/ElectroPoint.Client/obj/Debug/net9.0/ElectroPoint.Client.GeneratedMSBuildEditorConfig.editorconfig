@@ -21,45 +21,61 @@ build_property._SupportedPlatformList = browser
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ElectroPoint.Client
 build_property.RootNamespace = ElectroPoint.Client
-build_property.ProjectDir = C:\Users\augustosantos\Desktop\ElectroPoint\ElectroPoint.Client\
+build_property.ProjectDir = C:\Users\augus\OneDrive\Desktop\MVC_Blazor\ElectroPoint\ElectroPoint.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\augustosantos\Desktop\ElectroPoint\ElectroPoint.Client
+build_property.MSBuildProjectDirectory = C:\Users\augus\OneDrive\Desktop\MVC_Blazor\ElectroPoint\ElectroPoint.Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/Admin/Eletronicos.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/CadastroAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2FkYXN0cm9BZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/Eletronicos.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWxldHJvbmljb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/Admin/HomeAdmin.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/HomeAdmin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSG9tZUFkbWluLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/Admin/Marca.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/LoginAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW5BZG1pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/Marca.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFyY2EucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/Admin/User.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/Admin/User.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/EletronicosUI.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/CadastroUserUI.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUktVVhcQ2FkYXN0cm9Vc2VyVUkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/EletronicosUI.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUktVVhcRWxldHJvbmljb3NVSS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/MarcasUI.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/loginUserUI.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUktVVhcbG9naW5Vc2VyVUkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/MarcasUI.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUktVVhcTWFyY2FzVUkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/SobreNosUI.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/Pages/UI-UX/SobreNosUI.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUktVVhcU29icmVOb3NVSS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/augustosantos/Desktop/ElectroPoint/ElectroPoint.Client/_Imports.razor]
+[C:/Users/augus/OneDrive/Desktop/MVC_Blazor/ElectroPoint/ElectroPoint.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
