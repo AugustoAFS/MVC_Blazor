@@ -17,11 +17,11 @@ html, body {
 
 /* Layout principal da página */
 .layout {
-    margin-left: 250px; /* Espaço para a navegação lateral */
+    margin-left: 250px; 
     padding: 2rem;
-    padding-top: 50px; /* Ajuste para o topo */
-    min-height: calc(100vh - 80px); /* Garante que o conteúdo ocupe o restante da altura */
-    background-color: #f8f9fa; /* Cor de fundo do conteúdo */
+    padding-top: 50px;
+    min-height: calc(100vh - 80px); 
+    background-color: #f8f9fa;
 }
 
 /* Estilo para o título do conteúdo */
@@ -31,3 +31,22 @@ h1 {
     margin-bottom: 1rem;
     text-align: center;
 }
+
+.Card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.Card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+    .Card p {
+        font-size: 14px;
+        color: #333;
+    }

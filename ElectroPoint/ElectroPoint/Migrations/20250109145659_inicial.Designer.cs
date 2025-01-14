@@ -12,7 +12,7 @@ namespace ElectroPoint.Migrations
 {
     [DbContext(typeof(EletroPointDbContext))]
     [Migration("20250109145659_inicial")]
-    partial class inicial
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

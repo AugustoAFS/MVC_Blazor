@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿using ElectroPoint.Models;
+using ElectroPoint.data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ElectroPoint.Controllers
 {
@@ -8,36 +9,130 @@ namespace ElectroPoint.Controllers
     [ApiController]
     public class EletronicosController : ControllerBase
     {
-        // GET: api/<EletronicosController>
+        private readonly EletroPointDbContext _context;
+
+        public EletronicosController(EletroPointDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: api/eletronicos
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<EletronicosModel>>> GetEletronicos()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                var eletrônicos = await _context.Electronics.ToListAsync();
+                return Ok(eletrônicos);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao recuperar os eletrônicos: {ex.Message}");
+            }
         }
 
-        // GET api/<EletronicosController>/5
+        // GET: api/eletronicos/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<EletronicosModel>> GetEletronico(int id)
         {
-            return "value";
+            try
+            {
+                var eletronico = await _context.Electronics.FindAsync(id);
+
+                if (eletronico == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(eletronico);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao recuperar o eletrônico: {ex.Message}");
+            }
         }
 
-        // POST api/<EletronicosController>
+        // POST: api/eletronicos
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<EletronicosModel>> PostEletronico([FromBody] EletronicosModel eletronico)
         {
+            if (eletronico == null)
+            {
+                return BadRequest("Dados inválidos.");
+            }
+
+            try
+            {
+                _context.Electronics.Add(eletronico);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction(nameof(GetEletronico), new { id = eletronico.Id_eletronicos }, eletronico);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao criar o eletrônico: {ex.Message}");
+            }
         }
 
-        // PUT api/<EletronicosController>/5
+        // PUT: api/eletronicos/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> PutEletronico(int id, [FromBody] EletronicosModel eletronico)
         {
+            if (id != eletronico.Id_eletronicos)
+            {
+                return BadRequest("IDs não correspondem.");
+            }
+
+            _context.Entry(eletronico).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!EletronicoExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return StatusCode(500, "Erro de concorrência ao atualizar o eletrônico.");
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao atualizar o eletrônico: {ex.Message}");
+            }
         }
 
-        // DELETE api/<EletronicosController>/5
+        // DELETE: api/eletronicos/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteEletronico(int id)
         {
+            try
+            {
+                var eletronico = await _context.Electronics.FindAsync(id);
+                if (eletronico == null)
+                {
+                    return NotFound();
+                }
+
+                _context.Electronics.Remove(eletronico);
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao excluir o eletrônico: {ex.Message}");
+            }
+        }
+
+        private bool EletronicoExists(int id)
+        {
+            return _context.Electronics.Any(e => e.Id_eletronicos == id);
         }
     }
 }

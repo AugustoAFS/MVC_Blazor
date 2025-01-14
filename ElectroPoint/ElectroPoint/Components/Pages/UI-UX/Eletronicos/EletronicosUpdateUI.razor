@@ -1,0 +1,67 @@
+﻿@page "/EletronicosUpdateUI/{id}"
+
+<h3>Editar Eletrônico</h3>
+
+<EditForm Model="@eletronico" OnValidSubmit="AtualizarEletronico">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <InputText id="nome" class="form-control" @bind-Value="eletronico.Nome" />
+    </div>
+
+    <div class="form-group">
+        <label for="preco">Preço</label>
+        <InputNumber id="preco" class="form-control" @bind-Value="eletronico.Preco" />
+    </div>
+
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <InputTextArea id="descricao" class="form-control" @bind-Value="eletronico.Descricao" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Atualizar</button>
+</EditForm>
+
+@code {
+    // Modelo de dados para o eletrônico
+    [Parameter] public string Id { get; set; }
+
+    private Eletronico eletronico = new Eletronico();
+
+    // Método que é chamado para carregar o eletrônico com base no ID (simulação de busca)
+    protected override async Task OnInitializedAsync()
+    {
+        // Simulação de busca do eletrônico com base no Id
+        // Aqui você pode chamar um serviço para buscar o eletrônico do banco de dados
+        await Task.Delay(500); // Simulação de tempo de resposta
+
+        // Preenchendo os dados do eletrônico com base no ID
+        // Exemplo: você pode preencher com dados fictícios para ilustrar
+        eletronico = new Eletronico
+            {
+                Id = Id,
+                Nome = "Smartphone XYZ",
+                Preco = 999.99m,
+                Descricao = "Smartphone com excelente desempenho"
+            };
+    }
+
+    // Método para atualizar os dados do eletrônico
+    private void AtualizarEletronico()
+    {
+        // Aqui você pode adicionar a lógica para atualizar o eletrônico no banco de dados
+        // Exemplo: chamar um serviço para persistir a atualização
+        Console.WriteLine($"Eletrônico {eletronico.Nome} atualizado com sucesso!");
+    }
+
+    // Modelo de dados para um eletrônico
+    public class Eletronico
+    {
+        public string Id { get; set; }
+        public string Nome { get; set; }
+        public decimal Preco { get; set; }
+        public string Descricao { get; set; }
+    }
+}

@@ -1,0 +1,65 @@
+﻿@page "/CadastroAdmin"
+
+@inject HttpClient Http
+
+<h3>Cadastro Admin</h3>
+
+<EditForm Model="@admin" OnValidSubmit="HandleSubmit" FormName="CadastroAdmin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <InputText id="nome" class="form-control" @bind-Value="admin.Nome" />
+    </div>
+
+    <div class="form-group">
+        <label for="cpf">CPF</label>
+        <InputNumber id="cpf" class="form-control" @bind-Value="admin.Cpf" />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <InputText id="email" class="form-control" @bind-Value="admin.Email" />
+    </div>
+
+    <div class="form-group">
+        <label for="funcao">Função</label>
+        <InputText id="funcao" class="form-control" @bind-Value="admin.Funcao" />
+    </div>
+
+    <div class="form-group">
+        <label for="status">Status</label>
+        <InputCheckbox id="status" class="form-check-input" @bind-Value="admin.Status" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</EditForm>
+
+@code {
+    private AdminModel admin = new AdminModel();
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            // Enviar os dados para a API (POST)
+            var response = await Http.PostAsJsonAsync("api/admin", admin);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Se for bem-sucedido, você pode adicionar uma mensagem de sucesso ou redirecionar
+                Console.WriteLine("Admin cadastrado com sucesso!");
+            }
+            else
+            {
+                // Caso contrário, mostre o erro
+                Console.WriteLine("Falha ao cadastrar admin.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao tentar cadastrar: {ex.Message}");
+        }
+    }
+}

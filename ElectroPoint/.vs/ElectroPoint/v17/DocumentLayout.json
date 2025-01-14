@@ -1,41 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\",
+  "WorkspaceRootPath": "C:\\Users\\augustosantos\\Desktop\\MVC_Blazor\\ElectroPoint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint.client\\pages\\admin\\cadastroadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|solutionrelative:electropoint.client\\pages\\admin\\cadastroadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\mvc_blazor\\electropoint\\electropoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint.client\\pages\\admin\\loginadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|solutionrelative:electropoint.client\\pages\\admin\\loginadmin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint.client\\pages\\ui-ux\\loginuserui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|solutionrelative:electropoint.client\\pages\\ui-ux\\loginuserui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint.client\\pages\\ui-ux\\cadastrouserui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8DAAAAA-8A04-4E7A-9C78-B56DD730E408}|ElectroPoint.Client\\ElectroPoint.Client.csproj|solutionrelative:electropoint.client\\pages\\ui-ux\\cadastrouserui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint\\wwwroot\\css\\navmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\wwwroot\\css\\navmenu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augus\\onedrive\\desktop\\mvc_blazor\\electropoint\\electropoint\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|c:\\users\\augustosantos\\desktop\\mvc_blazor\\electropoint\\electropoint\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7393FC92-0EA3-43BB-A364-9E8F8A1F596F}|ElectroPoint\\ElectroPoint.csproj|solutionrelative:electropoint\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -46,62 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 343,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "ElectroPoint\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "ElectroPoint\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T14:34:36.707Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\Home.css",
-              "RelativeDocumentMoniker": "ElectroPoint\\wwwroot\\css\\Home.css",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\Home.css",
-              "RelativeToolTip": "ElectroPoint\\wwwroot\\css\\Home.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T14:45:54.196Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastroAdmin.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\Admin\\CadastroAdmin.razor",
-              "RelativeDocumentMoniker": "ElectroPoint.Client\\Pages\\Admin\\CadastroAdmin.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\Admin\\CadastroAdmin.razor",
-              "RelativeToolTip": "ElectroPoint.Client\\Pages\\Admin\\CadastroAdmin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T01:53:10.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginAdmin.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\Admin\\LoginAdmin.razor",
-              "RelativeDocumentMoniker": "ElectroPoint.Client\\Pages\\Admin\\LoginAdmin.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\Admin\\LoginAdmin.razor",
-              "RelativeToolTip": "ElectroPoint.Client\\Pages\\Admin\\LoginAdmin.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T01:52:52.017Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -111,68 +29,33 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CadastroUserUI.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\UI-UX\\CadastroUserUI.razor",
-              "RelativeDocumentMoniker": "ElectroPoint.Client\\Pages\\UI-UX\\CadastroUserUI.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\UI-UX\\CadastroUserUI.razor",
-              "RelativeToolTip": "ElectroPoint.Client\\Pages\\UI-UX\\CadastroUserUI.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T01:52:13.756Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\appsettings.json",
+              "RelativeDocumentMoniker": "ElectroPoint\\appsettings.json",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\appsettings.json",
+              "RelativeToolTip": "ElectroPoint\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T16:20:18.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "loginUserUI.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\UI-UX\\loginUserUI.razor",
-              "RelativeDocumentMoniker": "ElectroPoint.Client\\Pages\\UI-UX\\loginUserUI.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint.Client\\Pages\\UI-UX\\loginUserUI.razor",
-              "RelativeToolTip": "ElectroPoint.Client\\Pages\\UI-UX\\loginUserUI.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T01:51:34.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "ElectroPoint\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "ElectroPoint\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T01:19:23.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Footer.razor",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\Footer.razor",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\Footer.razor",
               "RelativeDocumentMoniker": "ElectroPoint\\Components\\Layout\\Footer.razor",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\Footer.razor",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\Components\\Layout\\Footer.razor",
               "RelativeToolTip": "ElectroPoint\\Components\\Layout\\Footer.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T22:56:59.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.css",
-              "DocumentMoniker": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\NavMenu.css",
-              "RelativeDocumentMoniker": "ElectroPoint\\wwwroot\\css\\NavMenu.css",
-              "ToolTip": "C:\\Users\\augus\\OneDrive\\Desktop\\MVC_Blazor\\ElectroPoint\\ElectroPoint\\wwwroot\\css\\NavMenu.css",
-              "RelativeToolTip": "ElectroPoint\\wwwroot\\css\\NavMenu.css",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T14:45:56.889Z",
+              "WhenOpened": "2025-01-14T16:19:15.032Z",
               "EditorCaption": ""
             }
           ]

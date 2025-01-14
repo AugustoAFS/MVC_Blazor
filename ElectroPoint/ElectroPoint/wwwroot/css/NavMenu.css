@@ -1,9 +1,9 @@
 ﻿/* Barra de navegação lateral */
 .nav-scrollable {
     position: fixed;
-    height: 100vh; /* Ocupa 100% da altura da tela */
-    width: 250px; /* Largura fixa para a navegação */
-    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo escura */
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.8); 
     color: white;
 }
 
@@ -36,34 +36,19 @@
 
 /* Logo */
 .logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 35%;
 }
 
 /* Estilo do rodapé */
 footer {
-    background-color: #343a40; /* Cor de fundo escura */
-    color: white; /* Cor do texto */ 
-    text-align: center; /* Centraliza o texto */
-    padding: 0.5rem; /* Espaçamento interno */
-    position:fixed; /* Fixa o footer na parte inferior */
-    bottom: 0; /* Posiciona na parte inferior da página */
-    width: 98.9%; /* O footer ocupa a largura total */
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .nav-scrollable {
-        width: 200px; /* Reduz a largura em telas menores */
-    }
-
-    .layout {
-        margin-left: 0; /* Retira o espaço lateral em telas pequenas */
-        padding-left: 1rem; /* Ajusta o padding para telas menores */
-    }
-
-    .nav-link {
-        padding: 0.5rem; /* Ajusta o padding dos links */
-    }
+    background-color: #343a40; 
+    color: white; 
+    text-align: center; 
+    padding: 0.5rem; 
+    position:fixed; 
+    bottom: 0; 
+    width: 98.9%;
 }

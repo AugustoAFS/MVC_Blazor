@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectroPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fe141b5e0976b132d3af831db15f48e20549035")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5f1a0c4afffe968e68022c3acf7aee9df400541")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectroPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectroPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

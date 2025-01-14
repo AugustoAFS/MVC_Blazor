@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+﻿using ElectroPoint.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ElectroPoint.Controllers
 {
@@ -8,36 +8,83 @@ namespace ElectroPoint.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
-        // GET: api/<AdminController>
+        private readonly EletroPointDbContext _context;
+
+        public AdminController(EletroPointDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: api/Admin
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<AdminModel>>> GetAdmins()
         {
-            return new string[] { "value1", "value2" };
+            return await _context.Admins.ToListAsync();
         }
 
-        // GET api/<AdminController>/5
+        // GET api/Admin/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<AdminModel>> GetAdmin(int id)
         {
-            return "value";
+            var admin = await _context.Admins.FindAsync(id);
+
+            if (admin == null)
+                return NotFound();
+
+            return admin;
         }
 
-        // POST api/<AdminController>
+        // POST api/Admin
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<AdminModel>> PostAdmin([FromBody] AdminModel admin)
         {
+            _context.Admins.Add(admin);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetAdmin), new { id = admin.Id_admin }, admin);
         }
 
-        // PUT api/<AdminController>/5
+        // PUT api/Admin/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> PutAdmin(int id, [FromBody] AdminModel admin)
         {
+            if (id != admin.Id_admin)
+                return BadRequest();
+
+            _context.Entry(admin).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!AdminExists(id))
+                    return NotFound();
+
+                throw;
+            }
+
+            return NoContent();
         }
 
-        // DELETE api/<AdminController>/5
+        // DELETE api/Admin/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> DeleteAdmin(int id)
         {
+            var admin = await _context.Admins.FindAsync(id);
+            if (admin == null)
+                return NotFound();
+
+            _context.Admins.Remove(admin);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        private bool AdminExists(int id)
+        {
+            return _context.Admins.Any(e => e.Id_admin == id);
         }
     }
 }

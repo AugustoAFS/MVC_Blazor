@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ElectroPoint.Client",
   "resources": {
-    "hash": "sha256-vhpVxmrgj/QvEjAfeicWTh+/i6pNA+xiiEQHBxKtpVE=",
+    "hash": "sha256-a7U5DqNuEof/4WUA655hXbMtU4Auw/TQqx6EwBvGZlk=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -312,8 +312,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "ElectroPoint.Client.cqlej7d3bd.wasm": "ElectroPoint.Client.wasm",
-      "ElectroPoint.Client.g7s9ihg0yf.pdb": "ElectroPoint.Client.pdb"
+      "ElectroPoint.Client.1korbj0tzu.wasm": "ElectroPoint.Client.wasm",
+      "ElectroPoint.Client.500o1z5qi0.pdb": "ElectroPoint.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -569,10 +569,10 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "ElectroPoint.Client.cqlej7d3bd.wasm": "sha256-fJt29Mx6kKXt9iuKTSmp9oTuIhkdfu3R2ZYALpt1amk="
+      "ElectroPoint.Client.1korbj0tzu.wasm": "sha256-7/OfQ3ltcgeiCBuE1Uhnff8GrNJD2QixCOZ4TubFmLo="
     },
     "pdb": {
-      "ElectroPoint.Client.g7s9ihg0yf.pdb": "sha256-DC1odIKDQrgFrI7LeVBH9VLn3lDSPKvlszB0eV6vlko="
+      "ElectroPoint.Client.500o1z5qi0.pdb": "sha256-BfMurvWQl4h2XtWvUkl6xLTfrEeO7IUgA9WCZYOnM6A="
     },
     "satelliteResources": {
       "cs": {
