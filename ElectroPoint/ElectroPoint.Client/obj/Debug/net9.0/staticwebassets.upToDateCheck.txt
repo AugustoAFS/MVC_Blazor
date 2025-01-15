@@ -1,4 +1,0 @@
-C:\Users\augustosantos\Desktop\MVC_Blazor\ElectroPoint\ElectroPoint.Client\wwwroot\appsettings.Development.json
-C:\Users\augustosantos\Desktop\MVC_Blazor\ElectroPoint\ElectroPoint.Client\wwwroot\appsettings.json
-wwwroot\appsettings.Development.json
-wwwroot\appsettings.json

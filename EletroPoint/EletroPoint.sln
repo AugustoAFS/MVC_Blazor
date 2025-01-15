@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EletroPoint", "EletroPoint\EletroPoint.csproj", "{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EletroPoint.Client", "EletroPoint.Client\EletroPoint.Client.csproj", "{94099A6D-F407-4406-BA67-95BA886D84A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94099A6D-F407-4406-BA67-95BA886D84A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94099A6D-F407-4406-BA67-95BA886D84A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94099A6D-F407-4406-BA67-95BA886D84A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94099A6D-F407-4406-BA67-95BA886D84A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

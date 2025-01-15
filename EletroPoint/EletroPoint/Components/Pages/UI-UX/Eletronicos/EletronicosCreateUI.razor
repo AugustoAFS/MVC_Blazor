@@ -1,0 +1,125 @@
+﻿@page "/EletronicosCreateUI"
+
+@using EletroPoint.Models
+@using EletroPoint.data
+@inject EletroPointDbContext DbContext
+@inject HttpClient Http
+
+<h3>Criar Eletrônico</h3>
+
+<EditForm Model="@novoEletronico" OnValidSubmit="SalvarEletronico" FormName="eletronicoForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="Nome">Nome</label>
+        <InputText id="Nome" class="form-control" @bind-Value="novoEletronico.Nome" />
+        <ValidationMessage For="@(() => novoEletronico.Nome)" />
+    </div>
+
+    <div class="form-group">
+        <label for="cor">Cor</label>
+        <InputText id="cor" class="form-control" @bind-Value="novoEletronico.Cor" />
+    </div>
+
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <InputTextArea id="descricao" class="form-control" @bind-Value="novoEletronico.Descricao" />
+    </div>
+
+    <div class="form-group">
+        <label for="quantidade">Quantidade</label>
+        <InputNumber id="quantidade" class="form-control" @bind-Value="novoEletronico.Quantidade" />
+    </div>
+
+    <div class="form-group">
+        <label for="status">Status</label>
+        <InputText id="status" class="form-control" @bind-Value="novoEletronico.Status" />
+        <ValidationMessage For="@(() => novoEletronico.Status)" />
+    </div>
+
+    <div class="form-group">
+        <label for="marcaId">Marca</label>
+        <select id="marcaId" class="form-control" @bind="novoEletronico.MarcaId">
+            <option value="">Selecione uma marca</option>
+            @foreach (var marca in marcas)
+            {
+                <option value="@marca.Id_marca">@marca.Nome</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(mensagem))
+{
+    <div class="alert alert-success mt-3">@mensagem</div>
+}
+
+@code {
+    private EletronicosModel novoEletronico = new EletronicosModel();
+    private string mensagem;
+    private List<MarcaModel> marcas = new List<MarcaModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            // Fazendo requisição à API para obter todas as marcas
+            marcas = DbContext.Marcas.ToList<MarcaModel>();
+
+            // Verificar se a lista de marcas foi carregada corretamente
+            if (marcas == null || !marcas.Any())
+            {
+                mensagem = "Não há marcas disponíveis. Verifique os dados.";
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro ao carregar as marcas: {ex.Message}";
+        }
+    }
+
+    private async Task SalvarEletronico()
+    {
+
+        // Se o nome estiver vazio, define um nome padrão
+        if (string.IsNullOrEmpty(novoEletronico.Nome))
+        {
+            novoEletronico.Nome = "Nome Padrão"; // Valor padrão para o nome
+        }
+
+        // Se o status estiver vazio, define um status padrão
+        if (string.IsNullOrEmpty(novoEletronico.Status))
+        {
+            novoEletronico.Status = "Disponível"; // Valor padrão para o status
+        }
+
+        // Verifica se o MarcaId está definido e válido
+        if (novoEletronico.MarcaId == 0 || !marcas.Any(m => m.Id_marca == novoEletronico.MarcaId))
+        {
+            mensagem = "Selecione uma marca válida.";
+        }
+
+        try
+        {
+            // Adiciona o eletrônico ao contexto diretamente
+            await DbContext.Eletronicos.AddAsync(novoEletronico);
+            await DbContext.SaveChangesAsync();
+
+            mensagem = $"Eletrônico '{novoEletronico.Nome}' salvo com sucesso!";
+            novoEletronico = new EletronicosModel(); // Limpa o formulário
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro ao salvar eletrônico: {ex.Message}";
+
+            // Exibir a exceção interna, se existir
+            if (ex.InnerException != null)
+            {
+                mensagem += $" | Exceção interna: {ex.InnerException.Message}";
+            }
+        }
+    }
+}

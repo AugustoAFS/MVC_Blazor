@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\augustosantos\\Desktop\\EletroPoint\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}|EletroPoint\\EletroPoint.csproj|c:\\users\\augustosantos\\desktop\\eletropoint\\eletropoint\\controllers\\eletronicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}|EletroPoint\\EletroPoint.csproj|solutionrelative:eletropoint\\controllers\\eletronicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}|EletroPoint\\EletroPoint.csproj|c:\\users\\augustosantos\\desktop\\eletropoint\\eletropoint\\components\\pages\\ui-ux\\eletronicos\\eletronicoscreateui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A91CC4F3-DAE5-491C-8742-3CB70F6E50FB}|EletroPoint\\EletroPoint.csproj|solutionrelative:eletropoint\\components\\pages\\ui-ux\\eletronicos\\eletronicoscreateui.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 343,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EletronicosController.cs",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\EletroPoint\\EletroPoint\\Controllers\\EletronicosController.cs",
+              "RelativeDocumentMoniker": "EletroPoint\\Controllers\\EletronicosController.cs",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\EletroPoint\\EletroPoint\\Controllers\\EletronicosController.cs",
+              "RelativeToolTip": "EletroPoint\\Controllers\\EletronicosController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAIAwwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:27:59.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EletronicosCreateUI.razor",
+              "DocumentMoniker": "C:\\Users\\augustosantos\\Desktop\\EletroPoint\\EletroPoint\\Components\\Pages\\UI-UX\\Eletronicos\\EletronicosCreateUI.razor",
+              "RelativeDocumentMoniker": "EletroPoint\\Components\\Pages\\UI-UX\\Eletronicos\\EletronicosCreateUI.razor",
+              "ToolTip": "C:\\Users\\augustosantos\\Desktop\\EletroPoint\\EletroPoint\\Components\\Pages\\UI-UX\\Eletronicos\\EletronicosCreateUI.razor",
+              "RelativeToolTip": "EletroPoint\\Components\\Pages\\UI-UX\\Eletronicos\\EletronicosCreateUI.razor",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAFQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T14:18:56.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
